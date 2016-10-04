@@ -5,7 +5,7 @@ using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.IE;
 
-namespace SimpleSearchSeleniumCsharp.Implementation
+namespace gaugecsharpselenium.Implementation
 {
     public class DriverFactory
     {
@@ -13,14 +13,28 @@ namespace SimpleSearchSeleniumCsharp.Implementation
 
         [BeforeSuite]
         public void Setup() {
-            bool useIe;
-            bool.TryParse(Environment.GetEnvironmentVariable("USE_IE"), out useIe);
-            if (useIe)
+           
+            string browser = Environment.GetEnvironmentVariable("BROWSER");
+            browser.ToLower();
+            if (browser != null)
             {
-                Driver=new InternetExplorerDriver();
+
+                if (browser == "ie")
+                {
+                    Driver=new InternetExplorerDriver();
+                }
+                else if (browser == "chrome")
+                {
+                    Driver =new ChromeDriver();
+                }
+                else if (browser == "firefox")
+                {
+                    Driver = new FirefoxDriver();
+                }
             }
             else
             {
+                //Console.WriteLine("In the Else");
                 Driver =new ChromeDriver();
             }
         }
