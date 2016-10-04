@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<project name="test" default="build">
+<property name="project_root" value="${string::replace(project::get-base-directory(), '\','/')}"/>
+    <target name="build">
+        <exec program="CMD.EXE"
+            workingdir="${project_root}"
+            commandline="/C gauge specs">
+        
+        </exec>
+       
+    </target>
+
+    <target name="report">
+        <exec program="C:\Program Files (x86)\Google\Chrome\Application\new_chrome.exe"
+            workingdir="${project_root}\reports\html-report"
+            commandline="index.html">
+        </exec>
+    </target>
+</project>
