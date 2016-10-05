@@ -1,19 +1,38 @@
 <?xml version="1.0"?>
-<project name="test" default="build">
+<project name="basic" default="build">
 <property name="project_root" value="${string::replace(project::get-base-directory(), '\','/')}"/>
+<property name="project_name" value="GaugeCsharpSelenium.csproj"/>
+<property name="browser" value=""/>
+<property name="spec" value=""/>
+<property name="rows" value=""/>
+
     <target name="build">
         <exec program="CMD.EXE"
             workingdir="${project_root}"
-            commandline="/C gauge specs">
-        
+            commandline="/C gauge ${rows} ${browser} specs${spec}">
         </exec>
-       
     </target>
 
-    <target name="report">
-        <exec program="C:\Program Files (x86)\Google\Chrome\Application\new_chrome.exe"
-            workingdir="${project_root}\reports\html-report"
-            commandline="index.html">
-        </exec>
+    <target name="report" Depends="build">
+    <choose>
+        <when test="${file::exists('C:\Program Files (x86)\Google\Chrome\Application\chrome.exe')}">
+            <exec program="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
+                workingdir="${project_root}\reports\html-report"
+                commandline="index.html">
+            </exec>
+        </when>
+        <when test="${not file::exists('C:\Program Files (x86)\Google\Chrome\Application\chrome.exe')}">
+            <echo message="google chrome not installed or not installed in standard location"/>
+        </when>
+    </choose>
+    </target>
+
+    <target name="update">
+        <delete>
+            <fileset>
+                <include name="env/default/csharp.properties"/>
+            </fileset>
+        </delete>
+        <echo file="${project_root}/env/default/csharp.properties">GAUGE_CSHARP_PROJECT_FILE = ${project_root}/${project_name}</echo>
     </target>
 </project>
