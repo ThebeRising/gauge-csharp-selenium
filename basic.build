@@ -7,6 +7,12 @@
 <property name="rows" value=""/>
 
     <target name="build">
+        <delete>
+            <fileset>
+                <include name="env/default/csharp.properties"/>
+            </fileset>
+        </delete>
+        <echo file="${project_root}/env/default/csharp.properties">GAUGE_CSHARP_PROJECT_FILE = ${project_root}/${project_name}</echo>
         <exec program="CMD.EXE"
             workingdir="${project_root}"
             commandline="/C gauge ${rows} ${browser} specs${spec}">
