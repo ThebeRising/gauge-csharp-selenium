@@ -65,6 +65,8 @@
 		<Compile Include="Implementation\Pages\OpenBrowserPage.cs" />
 		<Compile Include="Implementation\OpenBrowserSpec.cs" />
 		<Compile Include="Implementation\DriverFactory.cs" />
+		<Compile Include="Implementation\DriverExtensions.cs" />
+		
 		<Compile Include="Properties\AssemblyInfo.cs" />
 	</ItemGroup>
 	<ItemGroup>
