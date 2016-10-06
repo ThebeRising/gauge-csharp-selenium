@@ -47,10 +47,10 @@
         <echo file="${project_root}/env/default/csharp.properties">GAUGE_CSHARP_PROJECT_FILE = ${project_root}/${project_name}</echo>
     </target>
     
-    <target name="nant.onfailure" value="test.taskkiller"/>
+  <!--  <target name="nant.onfailure" value="test.taskkiller"/>
     <target name="test.taskiller">
         <exec program="killBrowser.bat" failonerror="false">
         </exec>
-    </target>
+    </target>-->
     
 </project>
