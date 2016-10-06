@@ -13,6 +13,11 @@
             </fileset>
         </delete>
         <echo file="${project_root}/env/default/csharp.properties">GAUGE_CSHARP_PROJECT_FILE = ${project_root}/${project_name}</echo>
+        <copy todir="${project_root}/gauge-bin">
+            <fileset basedir="${project_root}/packages/Selenium.WebDriver.ChromeDriver.2.24.0.0/driver">
+                <include name="chromedriver.exe"/>
+            </fileset>
+        </copy>
         <exec program="CMD.EXE"
             workingdir="${project_root}"
             commandline="/C gauge ${rows} ${browser} specs${spec}">
