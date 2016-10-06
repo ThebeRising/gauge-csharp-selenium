@@ -51,10 +51,10 @@
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Include="StepImplementation.cs" />
-		<Compile Include="Implementation/Pages/BasePage.cs" />
-		<Compile Include="Implementation/Pages/OpenBrowserPage.cs" />
-		<Compile Include="Implementation/OpenBrowserSpec.cs" />
-		<Compile Include="Implementation/DriverFactory.cs" />
+		<Compile Include="Implementation\Pages\BasePage.cs" />
+		<Compile Include="Implementation\Pages\OpenBrowserPage.cs" />
+		<Compile Include="Implementation\OpenBrowserSpec.cs" />
+		<Compile Include="Implementation\DriverFactory.cs" />
 		<Compile Include="Properties\AssemblyInfo.cs" />
 	</ItemGroup>
 	<ItemGroup>
