@@ -5,7 +5,7 @@ using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.IE;
 
-namespace gaugecsharpselenium.Implementation
+namespace GaugeCsharpSelenium.Implementation
 {
     public class DriverFactory
     {
