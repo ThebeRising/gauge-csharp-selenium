@@ -42,6 +42,7 @@ namespace GaugeCsharpSelenium.Implementation
         [AfterSuite]
         public void TearDown() {
             Driver.Close();
+            Driver.Quit();
         }
     }
 }
