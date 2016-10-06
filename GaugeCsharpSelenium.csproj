@@ -51,12 +51,17 @@
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Include="StepImplementation.cs" />
+		<Compile Include="Implementation/Pages/BasePage.cs" />
+		<Compile Include="Implementation/Pages/OpenBrowserPage.cs" />
+		<Compile Include="Implementation/OpenBrowserSpec.cs" />
+		<Compile Include="Implementation/DriverFactory.cs" />
 		<Compile Include="Properties\AssemblyInfo.cs" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="env\default\default.properties" />
 		<None Include="manifest.json" />
 		<None Include="specs\example.spec" />
+		<None Include="specs\OpenBrowser.spec" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
