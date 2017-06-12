@@ -1,5 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("f1c3a2f5-8a5d-42ce-958f-02334aefa9a5") = "GaugeCsharpSelenium", "GaugeCsharpSelenium.csproj", "215542e0-c996-4aa2-a633-672af77a08b2"
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaugeCsharpSelenium", "GaugeCsharpSelenium.csproj", "{DFE1AAB4-C01C-457E-8811-87458E2E502A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -7,10 +10,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		215542e0-c996-4aa2-a633-672af77a08b2.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		215542e0-c996-4aa2-a633-672af77a08b2.Debug|Any CPU.Build.0 = Debug|Any CPU
-		215542e0-c996-4aa2-a633-672af77a08b2.Release|Any CPU.ActiveCfg = Release|Any CPU
-		215542e0-c996-4aa2-a633-672af77a08b2.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFE1AAB4-C01C-457E-8811-87458E2E502A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE1AAB4-C01C-457E-8811-87458E2E502A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE1AAB4-C01C-457E-8811-87458E2E502A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE1AAB4-C01C-457E-8811-87458E2E502A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

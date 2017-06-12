@@ -21,7 +21,7 @@ namespace GaugeCsharpSelenium.Implementation
 
         public void someFunction()
         {
-
+            //a comment in the force
         }
 
     }
