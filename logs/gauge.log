@@ -61,3 +61,131 @@ Creating a Sandbox in: C:\Users\vagrant\Documents\GitHub\gauge-csharp-selenium\g
 16:11:20.047 
 Total time taken: 10.576s
 16:11:20.047 Updates are available. Run gauge --check-updates for more info.
+Building Project: C:/Users/vagrant/Documents/GitHub/gauge-csharp-selenium/GaugeCsharpSelenium.csproj
+Success
+Creating a Sandbox in: C:\Users\vagrant\Documents\GitHub\gauge-csharp-selenium\gauge-bin
+GaugeCsharpSelenium.Implementation.DriverFactory
+09:29:44.332 Checking updates...
+09:29:47.954 # Browser Basics
+09:29:47.970 ## Open the browser
+09:29:47.977 * Open the browser
+09:29:51.607 # Specification Heading
+09:29:51.609 ## Vowel counts in single word
+09:29:51.632 * Vowels in English language are "aeiou".
+
+09:29:51.970 * The word "gauge" has "3" vowels.
+
+09:29:52.462 ## Vowel counts in multiple word
+09:29:52.464 * Vowels in English language are "aeiou".
+
+09:29:52.795 * Almost all words have vowels 
+
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+09:29:53.735 Plugin [Html Report] with pid [6796] has exited
+09:29:53.839 Specifications:	2 executed	2 passed	0 failed	0 skipped
+09:29:53.839 Scenarios:	3 executed	3 passed	0 failed	0 skipped
+09:29:53.839 
+Total time taken: 9.914s
+09:29:53.839 Updates are available. Run gauge --check-updates for more info.
+Building Project: C:/Users/vagrant/Documents/GitHub/gauge-csharp-selenium/GaugeCsharpSelenium.csproj
+Success
+Creating a Sandbox in: C:\Users\vagrant\Documents\GitHub\gauge-csharp-selenium\gauge-bin
+GaugeCsharpSelenium.Implementation.DriverFactory
+09:44:37.460 Checking updates...
+09:44:40.415 # Browser Basics
+09:44:40.422 ## Open the browser
+09:44:40.432 * Open the browser
+09:44:41.246 # Specification Heading
+09:44:41.247 ## Vowel counts in single word
+09:44:41.249 * Vowels in English language are "aeiou".
+
+09:44:41.659 * The word "gauge" has "3" vowels.
+
+09:44:42.020 ## Vowel counts in multiple word
+09:44:42.021 * Vowels in English language are "aeiou".
+
+09:44:42.199 * Almost all words have vowels 
+
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+09:44:44.707 Plugin [Html Report] with pid [5328] has exited
+09:44:44.796 Specifications:	2 executed	2 passed	0 failed	0 skipped
+09:44:44.797 Scenarios:	3 executed	3 passed	0 failed	0 skipped
+09:44:44.797 
+Total time taken: 7.576s
+09:44:44.797 Updates are available. Run gauge --check-updates for more info.
+Building Project: C:/Users/vagrant/Documents/GitHub/gauge-csharp-selenium/GaugeCsharpSelenium.csproj
+Success
+Creating a Sandbox in: C:\Users\vagrant\Documents\GitHub\gauge-csharp-selenium\gauge-bin
+GaugeCsharpSelenium.Implementation.DriverFactory
+10:30:43.125 Checking updates...
+10:30:44.801 # Browser Basics
+10:30:44.815 ## Open the browser
+10:30:44.821 * Open the browser
+10:30:45.752 # Specification Heading
+10:30:45.754 ## Vowel counts in single word
+10:30:45.756 * Vowels in English language are "aeiou".
+
+10:30:46.170 * The word "gauge" has "3" vowels.
+
+10:30:46.524 ## Vowel counts in multiple word
+10:30:46.525 * Vowels in English language are "aeiou".
+
+10:30:46.945 * Almost all words have vowels 
+
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+10:30:47.879 Plugin [Html Report] with pid [5992] has exited
+10:30:47.990 Specifications:	2 executed	2 passed	0 failed	0 skipped
+10:30:47.990 Scenarios:	3 executed	3 passed	0 failed	0 skipped
+10:30:47.990 
+Total time taken: 6.031s
+10:30:47.990 Updates are available. Run gauge --check-updates for more info.
+Building Project: C:/Users/vagrant/Documents/GitHub/gauge-csharp-selenium/GaugeCsharpSelenium.csproj
+Success
+Creating a Sandbox in: C:\Users\vagrant\Documents\GitHub\gauge-csharp-selenium\gauge-bin
+GaugeCsharpSelenium.Implementation.DriverFactory
+12:45:56.597 Checking updates...
+12:45:59.105 # Browser Basics
+12:45:59.118 ## Open the browser
+12:45:59.129 * Open the browser
+12:45:59.582 # Specification Heading
+12:45:59.582 ## Vowel counts in single word
+12:45:59.584 * Vowels in English language are "aeiou".
+
+12:45:59.825 * The word "gauge" has "3" vowels.
+
+12:46:00.273 ## Vowel counts in multiple word
+12:46:00.275 * Vowels in English language are "aeiou".
+
+12:46:00.450 * Almost all words have vowels 
+
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+12:46:01.142 Plugin [Html Report] with pid [5308] has exited
+12:46:01.223 Specifications:	2 executed	2 passed	0 failed	0 skipped
+12:46:01.223 Scenarios:	3 executed	3 passed	0 failed	0 skipped
+12:46:01.223 
+Total time taken: 4.877s
+12:46:01.223 Updates are available. Run gauge --check-updates for more info.

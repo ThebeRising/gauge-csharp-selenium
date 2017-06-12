@@ -9,7 +9,7 @@ namespace GaugeCsharpSelenium.Implementation.Pages
     {
         
         protected static readonly string BaseUrl_GOOGLE = Environment.GetEnvironmentVariable("APP_ENDPOINT_GOOGLE");
-        
+        protected static readonly string BaseUrl_LOCAL = Environment.GetEnvironmentVariable("APP_ENDPOINT_LOCAL");
         
 
         protected BasePage()

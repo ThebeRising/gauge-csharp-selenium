@@ -12,3 +12,17 @@ C:\Users\vagrant\Documents\GitHub\gauge-csharp-selenium\gauge-csharp-selenium\ga
 C:\Users\vagrant\Documents\GitHub\gauge-csharp-selenium\gauge-csharp-selenium\gauge-bin\WebDriver.Support.xml
 C:\Users\vagrant\Documents\GitHub\gauge-csharp-selenium\gauge-csharp-selenium\obj\Any CPU\Release\GaugeCsharpSelenium.csprojResolveAssemblyReference.cache
 C:\Users\vagrant\Documents\GitHub\gauge-csharp-selenium\gauge-csharp-selenium\obj\Any CPU\Release\GaugeCsharpSelenium.dll
+C:\Users\vagrant\Documents\GitHub\gauge-csharp-selenium\gauge-bin\GaugeCsharpSelenium.dll
+C:\Users\vagrant\Documents\GitHub\gauge-csharp-selenium\gauge-bin\FluentAssertions.Core.dll
+C:\Users\vagrant\Documents\GitHub\gauge-csharp-selenium\gauge-bin\FluentAssertions.dll
+C:\Users\vagrant\Documents\GitHub\gauge-csharp-selenium\gauge-bin\Gauge.CSharp.Lib.dll
+C:\Users\vagrant\Documents\GitHub\gauge-csharp-selenium\gauge-bin\WebDriver.dll
+C:\Users\vagrant\Documents\GitHub\gauge-csharp-selenium\gauge-bin\WebDriver.Support.dll
+C:\Users\vagrant\Documents\GitHub\gauge-csharp-selenium\gauge-bin\FluentAssertions.pdb
+C:\Users\vagrant\Documents\GitHub\gauge-csharp-selenium\gauge-bin\FluentAssertions.xml
+C:\Users\vagrant\Documents\GitHub\gauge-csharp-selenium\gauge-bin\FluentAssertions.Core.pdb
+C:\Users\vagrant\Documents\GitHub\gauge-csharp-selenium\gauge-bin\FluentAssertions.Core.xml
+C:\Users\vagrant\Documents\GitHub\gauge-csharp-selenium\gauge-bin\WebDriver.xml
+C:\Users\vagrant\Documents\GitHub\gauge-csharp-selenium\gauge-bin\WebDriver.Support.xml
+C:\Users\vagrant\Documents\GitHub\gauge-csharp-selenium\obj\Any CPU\Release\GaugeCsharpSelenium.csprojResolveAssemblyReference.cache
+C:\Users\vagrant\Documents\GitHub\gauge-csharp-selenium\obj\Any CPU\Release\GaugeCsharpSelenium.dll

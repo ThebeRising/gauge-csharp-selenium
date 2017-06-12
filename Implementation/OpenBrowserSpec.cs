@@ -16,7 +16,12 @@ namespace GaugeCsharpSelenium.Implementation
         [Step("Open the browser")]
         public void OpenBrowser()
         {
-          DriverFactory.Driver.Visit(OpenBrowserPage.url);
+          DriverFactory.Driver.Visit(OpenBrowserPage.localServer);
+        }
+
+        public void someFunction()
+        {
+
         }
 
     }
