@@ -1,4 +1,6 @@
 {
-	"Flags": {},
+	"Flags": {
+		"-env": "chrome"
+	},
 	"FailedItems": []
 }

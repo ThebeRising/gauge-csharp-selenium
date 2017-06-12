@@ -1,0 +1,63 @@
+Building Project: C:/Users/vagrant/Documents/GitHub/gauge-csharp-selenium/gauge-csharp-selenium/GaugeCsharpSelenium.csproj
+Success
+Creating a Sandbox in: C:\Users\vagrant\Documents\GitHub\gauge-csharp-selenium\gauge-csharp-selenium\gauge-bin
+GaugeCsharpSelenium.Implementation.DriverFactory
+16:10:45.784 Checking updates...
+16:10:47.578 # Browser Basics
+16:10:47.587 ## Open the browser
+16:10:47.592 * Open the browser
+16:10:49.984 # Specification Heading
+16:10:49.986 ## Vowel counts in single word
+16:10:49.987 * Vowels in English language are "aeiou".
+
+16:10:50.384 * The word "gauge" has "3" vowels.
+
+16:10:50.720 ## Vowel counts in multiple word
+16:10:50.721 * Vowels in English language are "aeiou".
+
+16:10:50.882 * Almost all words have vowels 
+
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+16:10:53.201 Plugin [Html Report] with pid [5496] has exited
+16:10:53.273 Specifications:	2 executed	2 passed	0 failed	0 skipped
+16:10:53.273 Scenarios:	3 executed	3 passed	0 failed	0 skipped
+16:10:53.274 
+Total time taken: 7.67s
+16:10:53.274 Updates are available. Run gauge --check-updates for more info.
+Building Project: C:/Users/vagrant/Documents/GitHub/gauge-csharp-selenium/gauge-csharp-selenium/GaugeCsharpSelenium.csproj
+Success
+Creating a Sandbox in: C:\Users\vagrant\Documents\GitHub\gauge-csharp-selenium\gauge-csharp-selenium\gauge-bin
+16:11:09.213 Checking updates...
+16:11:12.433 # Browser Basics
+16:11:12.463 ## Open the browser
+16:11:12.464 * Open the browser
+16:11:15.789 # Specification Heading
+16:11:15.790 ## Vowel counts in single word
+16:11:15.791 * Vowels in English language are "aeiou".
+
+16:11:16.174 * The word "gauge" has "3" vowels.
+
+16:11:16.673 ## Vowel counts in multiple word
+16:11:16.675 * Vowels in English language are "aeiou".
+
+16:11:16.934 * Almost all words have vowels 
+
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+16:11:19.855 Plugin [Html Report] with pid [5732] has exited
+16:11:20.047 Specifications:	2 executed	2 passed	0 failed	0 skipped
+16:11:20.047 Scenarios:	3 executed	3 passed	0 failed	0 skipped
+16:11:20.047 
+Total time taken: 10.576s
+16:11:20.047 Updates are available. Run gauge --check-updates for more info.
